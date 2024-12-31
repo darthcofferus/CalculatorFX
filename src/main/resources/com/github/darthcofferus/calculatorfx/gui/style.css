@@ -1,0 +1,83 @@
+#anchor-pane {
+    -fx-background-color: #1c2021;
+}
+
+#grid-pane {
+    -fx-background-color: transparent;
+}
+
+#stack-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 20px;
+}
+
+.text-field {
+    -fx-font-family: system regular;
+}
+
+#input-field {
+    -fx-max-height: infinity;
+    -fx-background-color: #23282a;
+    -fx-text-fill: white;
+    -fx-border-color: #7945FF;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+#bottom-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: darkgrey;
+}
+
+.button {
+    -fx-cursor: hand;
+    -fx-font-family: system regular;
+    -fx-max-width: infinity;
+    -fx-max-height: infinity;
+    -fx-padding: 0;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-background-radius: 7px;
+    -fx-background-insets: 2px;
+}
+
+.button:armed {
+    -fx-opacity: 0.5;
+}
+
+#button {
+    -fx-background-color: #34495e;
+}
+
+#left-bracket-button {
+    -fx-background-color: #34495e;
+    -fx-background-radius: 7px 0px 0px 7px;
+    -fx-background-insets: 2px 0px 2px 2px;
+}
+
+#right-bracket-button {
+    -fx-background-color: #34495e;
+    -fx-background-radius: 0px 7px 7px 0px;
+    -fx-background-insets: 2px 2px 2px 0px;
+}
+
+#number-button {
+    -fx-background-color: #34495e;
+}
+
+#operator-button {
+    -fx-background-color: #7945FF;
+}
+
+#equal-button {
+    -fx-background-color: #309054;
+}
+
+#delete-button {
+    -fx-background-color: #C53C3C;
+}
+
+#clear-button {
+    -fx-background-color: #C53C3C;
+}
