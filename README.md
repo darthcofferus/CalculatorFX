@@ -5,7 +5,7 @@ The calculator with graphical interface written in JavaFX.
 Windows x64 and 52.3 MB of free disk space.
 
 ## Installing
-Run the CalculatorFX-Setup-1.0.0.0 file and follow the necessary steps to install the application.
+Run the CalculatorFX-Setup-1.0.1.0 file and follow the necessary steps to install the application.
 
 ## Uninstalling
 Open the start menu and type CalculatorFX into the search. Then right-click on the application and select Delete.
