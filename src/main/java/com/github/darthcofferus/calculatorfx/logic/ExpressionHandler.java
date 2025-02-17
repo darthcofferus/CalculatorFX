@@ -24,7 +24,6 @@ public class ExpressionHandler {
                 arrayList.add(expression.charAt(next) + "");
             }
         }
-        System.out.println(arrayList);
         return arrayList;
     }
 
