@@ -6,7 +6,7 @@
 
   <groupId>com.github.darthcofferus</groupId>
   <artifactId>calculator-fx</artifactId>
-  <version>1.0.0-RELEASE</version>
+  <version>1.0.1</version>
   <name>CalculatorFX</name>
 
   <properties>
@@ -96,9 +96,9 @@
         <configuration>
           <type>EXE</type>
           <icon>icon.ico</icon>
-          <appVersion>1.0.0.0</appVersion>
+          <appVersion>1.0.1.0</appVersion>
           <vendor>Darth Cofferus</vendor>
-          <copyright>Darth Cofferus (C) 2024</copyright>
+          <copyright>Darth Cofferus (C) 2025</copyright>
           <aboutUrl>https://github.com/darthcofferus</aboutUrl>
           <winDirChooser>true</winDirChooser>
           <winMenuGroup>darthcofferus</winMenuGroup>
