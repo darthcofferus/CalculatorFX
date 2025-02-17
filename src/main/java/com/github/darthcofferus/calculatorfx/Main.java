@@ -1,6 +1,6 @@
 package com.github.darthcofferus.calculatorfx;
 
-import com.github.darthcofferus.calculatorfx.gui.SceneWithKeyEventHandler;
+import com.github.darthcofferus.calculatorfx.gui.CalculatorScene;
 import it.sauronsoftware.junique.AlreadyLockedException;
 import it.sauronsoftware.junique.JUnique;
 import javafx.application.Application;
@@ -34,7 +34,7 @@ public class Main extends Application {
         }
         stage.setTitle("CalculatorFX");
         stage.getIcons().add(new Image(getClass().getResource("icon.png").toString()));
-        stage.setScene(new SceneWithKeyEventHandler(root, Color.TRANSPARENT));
+        stage.setScene(new CalculatorScene(root, Color.TRANSPARENT));
         stage.setMinWidth(328);
         stage.setMinHeight(600);
         stage.setWidth(stage.getMinWidth());
