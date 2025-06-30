@@ -14,7 +14,7 @@
 <AnchorPane id="anchor-pane" fx:id="anchorPane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.darthcofferus.calculatorfx.gui.Controller">
     <StackPane id="stack-pane" fx:id="stackPane" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" BorderPane.alignment="CENTER">
         <InputField fx:id="inputField" id="input-field" />
-        <TextField fx:id="bottomField" id="bottom-field" editable="false" alignment="BOTTOM_RIGHT" StackPane.alignment="BOTTOM_RIGHT">
+        <TextField fx:id="bottomField" id="bottom-field" editable="false" StackPane.alignment="BOTTOM_RIGHT">
             <StackPane.margin>
                 <Insets bottom="5" left="5" right="5" />
             </StackPane.margin>
