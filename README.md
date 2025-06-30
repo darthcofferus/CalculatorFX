@@ -1,5 +1,5 @@
 # CalculatorFX
-The calculator with graphical interface written in JavaFX.
+The calculator with graphical interface written in JavaFX. This is my learning project :)
 
 ## Requirements:
 Windows x64 and 52.3 MB of free disk space.
