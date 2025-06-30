@@ -1,5 +1,6 @@
 package com.github.darthcofferus.calculatorfx.gui;
 
+import javafx.geometry.Pos;
 import javafx.scene.control.ContextMenu;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
@@ -7,6 +8,7 @@ import javafx.scene.control.TextFormatter;
 public class InputField extends TextField {
 
     public InputField() {
+        setAlignment(Pos.CENTER_RIGHT);
         setEditable(false);
         setContextMenu(new ContextMenu());
         setTextFormatter(new TextFormatter<>(change -> {

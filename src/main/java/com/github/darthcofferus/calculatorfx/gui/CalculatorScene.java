@@ -59,7 +59,7 @@ public class CalculatorScene extends Scene {
                 if (node instanceof Button button) {
                     String btnText = button.getText();
                     if ((code == KeyCode.BACK_SPACE && btnText.equals("⬅")) ||
-                            (!ctrlIsPressed && code == KeyCode.C || code == KeyCode.DELETE && btnText.equals("C")) ||
+                            (!ctrlIsPressed && (code == KeyCode.C || code == KeyCode.DELETE) && btnText.equals("C")) ||
                             (code == KeyCode.ENTER && btnText.equals("="))) {
                         pressButton(button);
                         break;
